@@ -1,0 +1,142 @@
+.titulo{
+    margin-left: 37px;
+    height: 47px;
+    width: 137px;
+    font-family:'Lobster', cursive;
+}
+
+@media (min-width:700px){
+    .titulo{
+        margin-left: 80px ;
+    }
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    min-width: 300px;
+}
+
+.barra{
+    z-index: 1;
+}
+
+@media (min-width:700px){
+    .barra{
+        margin-right: 154px;
+    }
+}
+
+@media (min-width:700px){
+    .tarjeta{
+    position: relative; left:50px ;
+    }
+    }
+    
+
+
+.foto{
+    height: 196px;
+    width: 246px;
+}
+
+@media (min-width:700px){
+    .foto{
+        height: 384px;
+        width: 482px;
+    }  
+}
+
+
+.pizza{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chicago{
+    width: 246px;
+    height: 126px;
+    font-size: 25px;
+}
+.tiempo{
+    width: 247px;
+    height: 19px;
+    font-size: small;
+}
+
+.boton{
+    display:inline-block;
+}
+
+.carousel-item {
+    transition-duration: .3s;
+}
+
+
+.carousel-indicators li{
+    border-radius: 50%;
+}
+
+
+.carousel-indicators{
+    bottom: -22px;
+    height: 20px;
+    width: 20px ;
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    filter: invert();
+}
+
+.texto{
+width: 482px;
+}
+
+.card{
+    width: 280px;
+    height: 470px;
+}
+
+@media (min-width:700px){
+    .card{
+        width: 325px;
+        height: 470px;
+    
+    }
+}
+
+.suscripcion{
+    height: 448px;
+}
+
+@media (min-width:700px){
+    .suscripcion{
+        height: 534px;
+    }
+}
+
+.newsletter{
+    position: relative; top: 190px;
+}
+
+.recetas{
+    position: relative; top: 190px;
+}
+
+.empezar{
+    position: relative; top: 190px;
+}
+
+.footer{
+    font-family: 'Lobster', cursive;
+    height: 121px;   
+}
+
+@media (min-width:700px){
+    .footer{
+        height: 125px;
+    }
+}
